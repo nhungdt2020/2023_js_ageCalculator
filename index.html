@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./master.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,400;1,800&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    
+    <div class="container-input">
+      <div class="day">
+        <label for="day">DAY</label><br>
+        <input type="text" id="day" placeholder="DD">
+        <div class="msg msgDay"></div>
+  
+      </div>
+      <div class="month">
+        <label for="month">MONTH</label><br>
+        <input type="text" id="month" placeholder="MM">
+        <div class="msg msgMonth"></div>
+  
+      </div>
+      <div class="year">
+        <label for="year">YEAR</label><br>
+        <input type="text" id="year" placeholder="YY">
+        <div class="msg msgYear"></div>
+  
+      </div>
+    </div>
+    <div class="container-arrow">
+      <hr>
+      <img src="./assets/images/icon-arrow.svg" alt="">
+    </div>
+
+
+    <div class="container-output">
+      <div class="output-year">
+        <span class="-- valueYear">--</span>
+        <span>years</span>
+      </div>
+      <div class="output-month">
+        <span class="-- valueMonth">--</span>
+        <span>months</span>
+      </div>
+      <div class="output-day">
+        <span class="-- valueDay">--</span>
+        <span>days</span>
+      </div>
+    </div>
+    
+
+  </div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">NhungDT</a>.
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="./index.js"></script>
+
+</body>
+</html>
