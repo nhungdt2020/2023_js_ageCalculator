@@ -141,7 +141,7 @@ function isNumeric(num) {
   return !isNaN(num);
 }
 
-console.log("is number", isNumeric("adc"));
+console.log("is number", "Hello world");
 
 //show msg check blank
 function msgCSS() {
